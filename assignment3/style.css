@@ -7,22 +7,18 @@
     - Inheritance (how child elements get parent properties)
 */
 
-/* Example for body
-   (this might demonstrate inheritance if your <p> or <h1>
-   doesn't override these styles)
-*/
+
 body {
-    /* TODO: Choose a color or font family from Chapter 5 examples,
-             explain in a comment why you picked it. */
-    color: #333;
-    font-family: Arial, sans-serif;
-    /* e.g. background-color: #f5f5f5; (optional) */
+    color: rgb(111, 190, 232);
+    font-family: Georgia, sans-serif;
+    background-color: rgb(247, 237, 237);
+    font-size: 20px;
+    /* I chose georgia from chapter 12 for the body and monotype corsiva for the header in html file*/
   }
   
-  /* Example: style your <h1> externally here */
-  h1 {
-    /* TODO: pick a color or text-related property
-             that might compete with your inline or internal CSS. */
+  /* using rgb color picker instead of hex codes */
+  h1{
+    color: rgb(235, 155, 199);
   }
   
   /*
