@@ -13,6 +13,7 @@ body {
   
   /* using rgb color picker instead of hex codes */
   h1{
+    text-align: center;
     color: rgb(235, 155, 199);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
