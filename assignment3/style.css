@@ -1,10 +1,5 @@
 /*
-  style.css - Assignment 3 (Chapter 5 focus)
-  ----------------------------------------------------------
-  References (Chapter 5):
-    - External vs. Internal vs. Inline CSS
-    - Cascade (specificity, order)
-    - Inheritance (how child elements get parent properties)
+  style.css - Assignment 3 
 */
 
 
@@ -22,16 +17,11 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
-  /*
-    Add more rules if desired:
-    - Paragraphs (p)
-    - Footer
-    - etc.
-  */
+  footer{
+    color: rgb(79, 129, 156);
+
+  }
   
   /*
-    For demonstration:
-    - Show which rules get overridden by your internal <style> block
-    - Which might get overridden by inline styles
-    - Comment your observations about the cascade and inheritance
+    after putting font-family in both external and inline css, inline was taken over external.
   */
