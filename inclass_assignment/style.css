@@ -44,17 +44,21 @@ header{
    flex: 3;
    background-color: yellow;
    padding: 20px;
+   border-radius: 8px;
  }
 
  aside{
    flex:1;
    background-color: pink;
    padding:20px;
+   border-radius: 8px;
 
  }
  footer {
    background-color: green
-   color:black;
+   color: black;
+   text-align: center;
+   
  }
  /*ADD MOBILE RESPONSIVE DESIGN 768 px*/
  @media (max-width: 768px) {
