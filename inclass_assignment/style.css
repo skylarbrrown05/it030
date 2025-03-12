@@ -29,27 +29,27 @@ header{
    font-weight: bold;
    transition: color 0.3s ease;
  }
- /*.box{
+ /*.box{ idk why this is still here remove 
     background-color: lightblue;
     padding: 20px;
     text-align: center;
 
  }*/
- .flex-container{
+ .flex-container{ /*flex 4 boxes and side*/
    display: flex;
    justify-content: space-between;
    gap:20px;
    padding:20px;
  }
 
- article {
+ article {/*home page box*/
    flex: 3;
    background-color: yellow;
    padding: 20px;
    border-radius: 8px;
  }
 
- aside{
+ aside{/*side bar*/
    flex:1;
    background-color: pink;
    padding:20px;
@@ -57,9 +57,13 @@ header{
 
  }
  footer {
-   background-color: green
+   background-color: green;
    color: black;
    text-align: center;
+   padding:15px;
+   position:relative;
+   bottom:0;
+   width: 100%;
    }
 
  /*ADD MOBILE RESPONSIVE DESIGN 768 px*/
