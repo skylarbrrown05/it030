@@ -14,13 +14,15 @@ header{
     gap: 10px;
     padding: 20px;
  }
- 
+ .navbar ul li{
+   margin: 0 15px;
+ }
  .navbar ul{
    display:flex;
    justify-content:center;
    list-style-type:none;
  }
- .navbar ul li {
+ .navbar ul li a{
    color: black;
    text-decoration: none;
    font-size: 18px;
@@ -58,8 +60,8 @@ header{
    background-color: green
    color: black;
    text-align: center;
-   
- }
+   }
+
  /*ADD MOBILE RESPONSIVE DESIGN 768 px*/
  @media (max-width: 768px) {
    .container {
