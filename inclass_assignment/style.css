@@ -2,7 +2,7 @@
 *{
    margin:0;
    padding:0;
-   box-sizing: border-box;
+   box-sizing: border-box;/*specify width and height*/
 }
 
 header{
@@ -62,7 +62,7 @@ header{
    margin-top:20px;*/
    }
 
- /*ADD MOBILE RESPONSIVE DESIGN 768 px*/
+ /*ADD MOBILE RESPONSIVE DESIGN 4 NAV AND FC 768 px*/
  @media (max-width: 768px) {
    .flex-container {
       flex-direction: column;
