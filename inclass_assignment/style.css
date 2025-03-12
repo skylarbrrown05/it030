@@ -15,6 +15,8 @@ header{
     gap: 10px;
     padding: 20px;
  }
+
+ /*ALL NAV MENU*/
  .nav ul li{ /*ul li r general list items */
    margin: 0 15px;
  }
@@ -30,17 +32,21 @@ header{
    font-weight: bold;
    transition: color 0.3s ease;
  }
+
+
  /*.box{ idk why this is still here remove 
     background-color: lightblue;
     padding: 20px;
     text-align: center;
 
  }*/
+
  .flex-container{ /*flex 4 boxes and side*/
    display: flex;
    justify-content: space-between;
    gap:20px;
    padding:20px;
+   margin-top: 20px;
  }
 
  article {/*home page box*/
@@ -51,7 +57,7 @@ header{
  }
 
  aside{/*side bar*/
-   flex:1;
+   flex: 1;
    background-color: pink;
    padding:20px;
    border-radius: 8px;
