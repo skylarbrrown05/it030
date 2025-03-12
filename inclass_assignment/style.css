@@ -41,7 +41,7 @@ header{
 
  }*/
 
- .flex-container{ /*flex 4 boxes and side*/
+ .flex-container{ /*flex 4 content and sidebar*/
    display: flex;
    justify-content: space-between;
    gap:20px;
