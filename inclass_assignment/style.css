@@ -1,5 +1,12 @@
 
-
+*{
+   box-sizing: border-box;
+}
+ 
+header{
+   background-color: aqua;
+   padding:10px;
+}
  .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
