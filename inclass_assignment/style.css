@@ -9,12 +9,12 @@ header{
    background-color: aqua;
    padding:10px 0;
 }
- .container {
+ /*.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     padding: 20px;
- }
+ }*/
 
  /*ALL NAV MENU*/
  .nav ul li{ /*ul li r general list items */
