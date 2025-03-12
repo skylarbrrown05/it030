@@ -19,7 +19,7 @@ header{
    justify-content:center;
    list-style-type:none;
  }
- .nav ul li a{ /*home, about, blog, contact each are:*/
+ .nav ul li a{ /*home, about, blog, contact titles*/
    color: black;
    text-decoration: none;
    font-size: 18px;
@@ -29,7 +29,7 @@ header{
 
  .flex-container{ /*flex 4 content and sidebar*/
    display: flex;
-   justify-content: space-between;
+   justify-content: space-between; /*boxes will have space between them*/
    gap:20px;
    padding:20px;
    margin-top: 20px;
@@ -37,7 +37,7 @@ header{
  }
 
  article {/*home page box*/
-   flex: 3;
+   flex: 3;/*takes up more space than the aside/side bar*/
    background-color: yellow;
    padding: 20px;
    border-radius: 8px;
@@ -56,10 +56,7 @@ header{
    text-align: center;
    font-weight: bold;
    padding:15px;
-   position:relative;
-   /*bottom:0;
-   width: 100%;
-   margin-top:20px;*/
+   position:relative;/*other content eill not be adjusted to fit into element*/
    }
 
  /*ADD MOBILE RESPONSIVE DESIGN 4 NAV AND FC 768 px*/
