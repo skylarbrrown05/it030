@@ -39,8 +39,21 @@ header{
    gap:20px;
    padding:20px;
  }
- footer {
+
+ article {
+   flex: 3;
    background-color: yellow;
+   padding: 20px;
+ }
+
+ aside{
+   flex:1;
+   background-color: pink;
+   padding:20px;
+
+ }
+ footer {
+   background-color: green
    color:black;
  }
  /*ADD MOBILE RESPONSIVE DESIGN 768 px*/
