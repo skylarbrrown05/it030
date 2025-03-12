@@ -5,13 +5,13 @@ header{
 }
 
  /*ALL NAV MENU*/
- .nav ul li{ /*ul li r general list items */
+ .nav ul li{ /*ul li r general list items: make the list items spaced out*/
    margin: 0 15px;
  }
  .nav ul{/*the entire unordered list*/
-   display:flex;
+   display:flex; /*makes item layoit*/
    justify-content:center;
-   list-style-type:none;
+   list-style-type:none;/*REMOVE BULLET POINTS!!!!*/
  }
  .nav ul li a{ /*home, about, blog, contact titles*/
    color: black;
