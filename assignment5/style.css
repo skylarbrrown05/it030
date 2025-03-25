@@ -79,6 +79,12 @@ body {
 .dark-mode {
   background-color: black;
   color: white;
+  .nav ul li a{ /*home, about, blog, contact titles*/
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
 }
 
 
