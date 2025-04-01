@@ -32,20 +32,20 @@ header{
 
  article {/*home page box*/
    flex: 3;/*takes up more space than the aside/side bar*/
-   background-color: yellow;
+   background-color: rgb(240, 223, 249 );
    padding: 20px;
    border-radius: 8px;
  }
 
  aside{/*side bar*/
    flex: 1;
-   background-color: pink;
+   background-color: rgb(223, 245, 249);
    padding:20px;
    border-radius: 8px;
 
  }
  footer {
-   background-color: green;
+   background-color: rgb(254, 219, 254);
    color: black;
    text-align: center;
    font-weight: bold;
