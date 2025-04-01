@@ -1,6 +1,6 @@
 
 header{
-   background-color: aqua;
+   background-color: rgb(249, 223, 243);
    padding:10px 0;
 }
 
@@ -20,6 +20,7 @@ header{
    font-weight: bold;
  }
 
+  /*use grid or flexbox at least once*/
  .flex-container{ /*flex 4 content and sidebar*/
    display: flex;
    justify-content: space-between; /*boxes will have space between them*/
@@ -52,7 +53,8 @@ header{
    position:relative;/*other content eill not be adjusted to fit into element*/
    }
 
- /*ADD MOBILE RESPONSIVE DESIGN 4 NAV AND FC 768 px*/
+
+ /*add all 3 media queries*/
  @media (max-width: 768px) {
    .flex-container {
       flex-direction: column;

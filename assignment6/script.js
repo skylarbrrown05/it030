@@ -10,3 +10,9 @@ window.onload = function () {
 function changeTheme() {
     document.body.classList.toggle("dark-mode");
 }
+//must include: 
+// color options array
+//prompt for user input
+//store input in an output
+//array check (needed)
+//apply color to background 
