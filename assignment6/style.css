@@ -78,6 +78,13 @@ header{
       gap: 15px;
    }
  }
+ @media (max-width: 1024px) {
+  body { font-size: 18px; }
+}
+
+@media (max-width: 480px) {
+  body { font-size: 14px; padding: 5px; }
+}
 
  /* Default light mode styles */
 body {
