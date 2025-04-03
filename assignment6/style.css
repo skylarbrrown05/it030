@@ -109,7 +109,7 @@ p{
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: white;
+  background-color: rgb(180, 176, 176);
   color: black;
   transition: background-color 0.5s, color 0.5s;
 }
