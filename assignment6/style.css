@@ -6,11 +6,11 @@ header{
 
  /*ALL NAV MENU*/
  .nav ul li{ /*ul li r general list items: make the list items spaced out*/
-   margin: 0 60x;
+   margin: 0 60px;
  }
  .nav ul{/*the entire unordered list*/
    display:flex; /*makes item layoit*/
-   justify-content:center;
+   justify-content:space-around;
    list-style-type:none;/*REMOVE BULLET POINTS!!!!*/
  }
  .nav ul li a{ /*home, about, blog, contact titles*/
