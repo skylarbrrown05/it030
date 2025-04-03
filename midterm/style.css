@@ -45,7 +45,7 @@ p{
    flex: 1;
  }
 
- .img-container {
+ .img-container { /*flex 4 images*/
   display: flex;
   justify-content: space-evenly; /* images even */
   flex-wrap: wrap; /* simages wrap on smaller screens */
