@@ -4,6 +4,10 @@ header{
    padding:10px 0;
 }
 
+h1{
+  font-family: 'Brush Script MT', cursive;
+}
+
  /*ALL NAV MENU*/
  .nav ul li{ /*ul li r general list items: make the list items spaced out*/
    margin: 0 60px;
