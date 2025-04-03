@@ -7,9 +7,9 @@ console.log("CSS + JavaScript is powerful!");
 //};
 
 // Function to toggle between light mode and dark mode
-function changeTheme() {
-    document.body.classList.toggle("dark-mode");
-}
+//function changeTheme() {
+   // document.body.classList.toggle("dark-mode");
+//}
 
 
   color:black;
