@@ -7,6 +7,9 @@ header{
 h1{
   font-family:  Copperplate, Papyrus, fantasy;
 }
+p{
+  font-family: Garamond, serif;
+}
 
  /*ALL NAV MENU*/
  .nav ul li{ /*ul li r general list items: make the list items spaced out*/
