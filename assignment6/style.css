@@ -46,17 +46,17 @@ p{
 
  .img-container {
   display: flex;
-  justify-content: space-evenly; /* Distribute images evenly */
-  flex-wrap: wrap; /* Ensures images wrap on smaller screens */
-  gap: 20px; /* Space between images */
+  justify-content: space-evenly; /* images even */
+  flex-wrap: wrap; /* simages wrap on smaller screens */
+  gap: 20px; /* space between images */
   padding: 20px;
 }
 
 .img img {
-  width: 100%; /* Makes image responsive */
-  max-width: 400px; /* Limits the max size */
-  height: auto; /* Maintains aspect ratio */
-  border-radius: 8px; /* Optional: Adds rounded corners */
+  width: 100%; /* makes image responsive */
+  max-width: 400px; /* limits the max size */
+  height: auto; /* maintains aspect ratio */
+  border-radius: 8px; /*rounded corners */
 }
 
 
@@ -125,7 +125,6 @@ body {
   color: white;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
