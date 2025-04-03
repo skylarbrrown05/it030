@@ -31,10 +31,21 @@ header{
    flex: 1;
  }
 
- .img{
-  display:flex;
-  justify-content: space-between;
- }
+ .img-container {
+  display: flex;
+  justify-content: space-evenly; /* Distribute images evenly */
+  flex-wrap: wrap; /* Ensures images wrap on smaller screens */
+  gap: 20px; /* Space between images */
+  padding: 20px;
+}
+
+.img img {
+  width: 100%; /* Makes image responsive */
+  max-width: 400px; /* Limits the max size */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
 
  article {/*home page box*/
    flex: 3;/*takes up more space than the aside/side bar*/
@@ -73,10 +84,10 @@ header{
    .nav ul li {
       margin: 10px 0;
    }
-   .img{
+   .img-container {
     flex-direction: column;
-      gap: 15px;
-   }
+    align-items: center; /* Centers images on smaller screens */
+}
  }
  @media (max-width: 1024px) {
   body { font-size: 18px; }
