@@ -2,6 +2,7 @@
 header{
    background-color: rgb(77, 32, 40);
    padding:10px 0;
+   color: white;
 }
 
 h1{
@@ -58,7 +59,7 @@ p{
 
  article {/*home page box*/
    flex: 3;/*takes up more space than the aside/side bar*/
-   background-color: rgb(63, 15, 23);
+   background-color: rgb(66, 26, 32);
    padding: 20px;
    border-radius: 8px;
  }
@@ -71,8 +72,8 @@ p{
 
  }
  footer {
-   background-color: rgb(77, 32, 40);
-   color: black;
+   background-color: rgb(26, 27, 41);
+   color: white;
    text-align: center;
    font-weight: bold;
    padding:15px;
