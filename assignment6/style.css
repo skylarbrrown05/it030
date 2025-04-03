@@ -1,6 +1,6 @@
 
 header{
-   background-color: rgb(249, 223, 243);
+   background-color: rgb(77, 32, 40);
    padding:10px 0;
 }
 
@@ -57,7 +57,7 @@ p{
 
  article {/*home page box*/
    flex: 3;/*takes up more space than the aside/side bar*/
-   background-color: rgb(240, 223, 249 );
+   background-color: rgb(115, 32, 46);
    padding: 20px;
    border-radius: 8px;
  }
