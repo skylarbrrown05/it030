@@ -6,7 +6,7 @@ header{
 
  /*ALL NAV MENU*/
  .nav ul li{ /*ul li r general list items: make the list items spaced out*/
-   margin: 0 30px;
+   margin: 0 50px;
  }
  .nav ul{/*the entire unordered list*/
    display:flex; /*makes item layoit*/
