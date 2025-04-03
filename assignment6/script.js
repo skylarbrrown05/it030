@@ -12,7 +12,8 @@ function changeTheme() {
 }
 
 
-const colors = ["#fcf7fc","#f0f9fd","#f6f0fd","#f0f4fd"]; //light pink, greem, purple, blue
+  color:black;
+const colors = [rgb(180, 176, 176),rgb(233, 195, 201),rgb(35, 31, 32),rgb(192, 193, 213)]; //grey, red, black, blue
 const userName = prompt("What's your name?"); 
 const colorChoice = parseInt(prompt("Pick a background color: 0 for pink, 1 for green, 2 for purple, 3 for blue"));
 
