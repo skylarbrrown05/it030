@@ -1,3 +1,4 @@
+<link href="style.css" type="text/css" rel="stylesheet"/>
 
 const colors = ["rgb(180, 176, 176)","rgb(233, 195, 201)","rgb(35, 31, 32)","rgb(192, 193, 213)"]; //grey, red, black, blue
 const userName = prompt("Whats your name?"); 
