@@ -1,6 +1,6 @@
 
 
-const colors = ["rgb(180, 176, 176)","rgb(233, 195, 201)","rgb(229, 228, 199)","rgb(192, 193, 213)"]; //grey, red, beige, blue
+const colors = ["rgb(180, 176, 176)","rgb(233, 195, 201)","rgb(153, 152, 129)","rgb(192, 193, 213)"]; //grey, red, beige, blue
 const userName = prompt("Whats your name?"); 
 const colorChoice = parseInt(prompt("Pick a background color: 0 for grey, 1 for red, 2 for beige, 3 for blue"));
 
