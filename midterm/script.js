@@ -15,6 +15,8 @@ const userInfo = {
     document.body.style.backgroundColor = userInfo.selectedColor;
     console.log("Background color set to:", userInfo.selectedColor);
 
+
+
 //must include: 
 // color options array
 //prompt for user input
