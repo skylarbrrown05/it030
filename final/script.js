@@ -24,6 +24,7 @@ function getCookie(name) {
     if (userTheme === 'dark') {
     document.body.style.backgroundColor = "#403434";
     document.body.style.color = "#4f0b0b";
+    document.body.style.article = "#4f0b0b";
     } else {
     document.body.style.backgroundColor = "#e3cec5";
     document.body.style.color = "#b88282";
