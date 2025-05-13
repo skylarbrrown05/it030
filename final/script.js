@@ -22,11 +22,11 @@ function getCookie(name) {
     }
     // Apply theme
     if (userTheme === 'dark') {
-    document.body.style.backgroundColor = "#121212";
-    document.body.style.color = "#f1f1f1";
+    document.body.style.backgroundColor = "#403434";
+    document.body.style.color = "#4f0b0b";
     } else {
-    document.body.style.backgroundColor = "#ffffff";
-    document.body.style.color = "#121212";
+    document.body.style.backgroundColor = "#e3cec5";
+    document.body.style.color = "#b88282";
     }
     
 
