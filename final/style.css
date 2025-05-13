@@ -34,7 +34,7 @@ article {
   background-color: #807f7f;
 }
 body.light-theme article {
-  background-color: #ffffff; /* Lighter background color for articles in light mode */
+  background-color:  #f0e0e5 ; /* Lighter background color for articles in light mode */
   color: #333333; /* Darker text for better contrast */
 }
 h1, h2 {
