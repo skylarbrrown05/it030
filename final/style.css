@@ -1,3 +1,13 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(180, 176, 176); /* Default background */
+  color: #2b2b2b; /* Default text color */
+  transition: background-color 0.5s, color 0.5s; /* Smooth transition */
+}
+
+/* Light theme */
 body.light-theme {
   background-color: #f7f2f0;
   color: #2b2b2b;
@@ -9,184 +19,78 @@ body.dark-theme {
   color: #f1e9e6;
 }
 
-header{
-   background-color: rgb(77, 32, 40);
-   padding:10px 0;
+/* Header */
+header {
+  background-color: rgb(77, 32, 40);
+  padding: 10px 0;
 }
 
-h1{
-  font-family:  Copperplate, Papyrus, fantasy;
+h1, h2 {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+h1 {
   font-size: 40px;
 }
-h2{
-  font-family:  Copperplate, Papyrus, fantasy;
+
+h2 {
   font-size: 20px;
 }
-p{
+
+p {
   font-family: Garamond, serif;
   font-size: 20px;
 }
-/* Style for navigation links */
+
+/* Navigation */
 nav ul {
-  list-style: none; /* Remove default list bullet points */
-  padding: 0; /* Remove any default padding */
-  margin: 0; /* Remove any default margin */
-  display: flex; /* Flexbox to arrange the links horizontally */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
 nav ul li {
-  margin: 0 15px; /* Space between each link */
+  margin: 0 15px;
 }
 
 nav a {
-  text-decoration: none; /* Remove underline */
-  background-color: #007bff; /* Button background color */
-  color: white; /* Button text color */
-  padding: 10px 20px; /* Button padding */
-  border-radius: 5px; /* Rounded corners */
-  font-size: 16px; /* Font size */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-  background-color: #0056b3; /* Change background color on hover */
+  background-color: #0056b3;
 }
 
-#toggle-theme {
-  margin-top: 20px;
-  padding: 10px 15px;
-  background-color: #333;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#toggle-theme:hover {
-  background-color: #555;
-}
-
- /*ALL NAV MENU*/
- .nav ul li{ /*ul li r general list items: make the list items spaced out*/
-   margin: 0 60px;
- }
- .nav ul{/*the entire unordered list*/
-   display:flex; /*makes item layoit*/
-   justify-content:space-around;
-   list-style-type:none;/*REMOVE BULLET POINTS!!!!*/
- }
- .nav ul li a{ /*home, about, blog, contact titles*/
-   color: white;
-   text-decoration: none;
-   font-size: 18px;
-   font-weight: bold;
-   padding: 5;
- }
-
-  /*use grid or flexbox at least once*/
- .flex-container{ /*flex 4 content and sidebar*/
-   display: flex;
-   justify-content: space-between; /*boxes will have space between them*/
-   gap:20px;
-   padding:20px;
-   margin-top: 20px;
-   flex: 1;
- }
-
- .img-container { /*flex 4 images*/
+/* Flexbox for layout */
+.flex-container {
   display: flex;
-  justify-content: space-evenly; /* images even */
-  flex-wrap: wrap; /* simages wrap on smaller screens */
-  gap: 20px; /* space between images */
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
   padding: 20px;
 }
 
 .img img {
-  width: 100%; /* makes image responsive */
-  max-width: 400px; /* limits the max size */
-  height: auto; /* maintains aspect ratio */
-  border-radius: 8px; /*rounded corners */
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
 }
 
-.influencer-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 250px;
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-
- article {/*home page box*/
-   flex: 3;/*takes up more space than the aside/side bar*/
-   background-color: rgb(66, 26, 32);
-   color: grey;
-   padding: 20px;
-   border-radius: 8px;
- }
-
- aside{/*side bar*/
-   flex: 1;
-   background-color: rgb(223, 245, 249);
-   padding:20px;
-   border-radius: 8px;
-
- }
- footer {
-   background-color: rgb(26, 27, 41);
-   color: white;
-   text-align: center;
-   font-weight: bold;
-   padding:15px;
-   position:relative;/*other content eill not be adjusted to fit into element*/
-   }
-
-
- /*add all 3 media queries*/
- @media (max-width: 768px) {
-   .flex-container {
-      flex-direction: column;
-      gap: 15px;
-   }
-   .nav ul{
-      flex-direction: column;
-      align-items: center;
-   }
-   .nav ul li {
-      margin: 10px 0;
-   }
-   .img-container {
-    flex-direction: column;
-    align-items: center; /* centers images on smaller screens */
-}
- }
- @media (max-width: 1024px) {
-  body { font-size: 18px; }
-}
-
-@media (max-width: 480px) {
-  body { font-size: 14px; padding: 5px; }
-}
-
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: rgb(180, 176, 176);
-  transition: background-color 0.5s, color 0.5s;
-}
-.button {
-  background-color: rgb(47, 22, 22);
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  font-size: 16px;
-  font-family: Copperplate, Papyrus, fantasy;
-}
-
+/* Toggle Button */
 #toggle-theme {
   margin-top: 10px;
   padding: 8px 12px;
@@ -200,4 +104,34 @@ body {
   background-color: #555;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav ul li {
+    margin: 10px 0;
+  }
+  .img-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
+@media (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
