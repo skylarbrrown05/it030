@@ -129,7 +129,7 @@ nav a:hover {
   margin-bottom: 10px; /* spacing */
 }
 
-button {
+.button {
   margin-top: 10px;
   padding: 8px 12px;
   background-color: #888;
