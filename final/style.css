@@ -26,6 +26,45 @@ p{
   font-family: Garamond, serif;
   font-size: 20px;
 }
+/* Style for navigation links */
+nav ul {
+  list-style: none; /* Remove default list bullet points */
+  padding: 0; /* Remove any default padding */
+  margin: 0; /* Remove any default margin */
+  display: flex; /* Flexbox to arrange the links horizontally */
+}
+
+nav ul li {
+  margin: 0 15px; /* Space between each link */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+#toggle-theme {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#toggle-theme:hover {
+  background-color: #555;
+}
 
  /*ALL NAV MENU*/
  .nav ul li{ /*ul li r general list items: make the list items spaced out*/
