@@ -1,4 +1,13 @@
+body.light-theme {
+  background-color: #f7f2f0;
+  color: #2b2b2b;
+}
 
+/* Dark theme */
+body.dark-theme {
+  background-color: #1e1e1e;
+  color: #f1e9e6;
+}
 
 header{
    background-color: rgb(77, 32, 40);
