@@ -30,6 +30,10 @@ header {
   padding: 20px;
 }
 
+article {
+  background-color: #2e2424;
+
+}
 h1, h2 {
   font-family: Copperplate, Papyrus, fantasy;
 }
