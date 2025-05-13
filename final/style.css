@@ -35,7 +35,7 @@ article {
 }
 body.light-theme article {
   background-color:  #f0e0e5 ; /* Lighter background color for articles in light mode */
-  color: #333333; /* Darker text for better contrast */
+  color: #2c2b2b; /* Darker text for better contrast */
 }
 h1, h2 {
   font-family: Copperplate, Papyrus, fantasy;
@@ -159,7 +159,7 @@ button {
 
 }
 .quiz-box {
-  background-color: #f9f2ef;
+  background-color:  #f0e0e5 ;
   padding: 20px;
   border: 2px solid #d9b0a3;
   color:#1e1e1e;
