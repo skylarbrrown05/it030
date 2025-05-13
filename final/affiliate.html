@@ -11,16 +11,18 @@
 <body>
     <!-- use div id for different roles in the page structure-->
     <header>
-        <nav class = "nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nyfw.html">NYFW</a></li>
-            <li><a href="spots.html">Best Spots</a></li>
-            <li><a href="trends.html">Trends</a></li>
-            <li><a href = "affiliate.html">Affiliate</a></li>
-            <li><a href = "influencers.html"> Influencers</a></li>
-        </ul>
-    </nav>
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html" onclick="gtag('event', 'nav_click', { 'link_name': 'Home' });">Home</a></li>
+            <li><a href="nyfw.html" onclick="gtag('event', 'nav_click', { 'link_name': 'NYFW' });">NYFW</a></li>
+            <li><a href="spots.html" onclick="gtag('event', 'nav_click', { 'link_name': 'Best Spots' });">Best Spots</a></li>
+            <li><a href="trends.html" onclick="gtag('event', 'nav_click', { 'link_name': 'Trends' });">Trends</a></li>
+            <li><a href="affiliate.html" onclick="gtag('event', 'nav_click', { 'link_name': 'Affiliate' });">Affiliate</a></li>
+            <li><a href="influencers.html" onclick="gtag('event', 'nav_click', { 'link_name': 'Influencers' });">Influencers</a></li>
+          </ul>
+        </nav>
+      </header>
+      
     <!-- GA4 Global Site Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id= G-PXS5947E5T"></script>
 <script>
