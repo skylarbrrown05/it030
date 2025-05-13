@@ -76,30 +76,41 @@
 
     <h2>With designers, models, and creatives constantly shaping new trends, the city is always evolving.
          Whether it's through Fashion Week, independent boutiques, or everyday street style, NYC continues to set the standard for fashion worldwide.</h2>
-         <div id="fashion-quiz" class="quiz-box">
+         <section class="quiz-box">
             <h2>What’s Your NYC Fashion Style?</h2>
           
-            <form id="quiz-form">
-              <p>1. What’s your go-to outfit?</p>
-              <label><input type="radio" name="q1" value="street"> Sneakers + Graphic Tee</label><br>
-              <label><input type="radio" name="q1" value="classic"> Blazer + Slacks</label><br>
-              <label><input type="radio" name="q1" value="trendy"> Matching Set + Heels</label><br>
+            <form>
+              <fieldset>
+                <legend>1. What's your go-to outfit?</legend>
+                <label><input type="radio" name="q1"> Sneakers + Graphic Tee</label><br>
+                <label><input type="radio" name="q1"> Blazer + Slacks</label><br>
+                <label><input type="radio" name="q1"> Matching Set + Heels</label>
+              </fieldset>
           
-              <p>2. What's your favorite shopping spot?</p>
-              <label><input type="radio" name="q2" value="street"> Soho</label><br>
-              <label><input type="radio" name="q2" value="classic"> Fifth Avenue</label><br>
-              <label><input type="radio" name="q2" value="trendy"> Online Boutiques</label><br>
+              <fieldset>
+                <legend>2. Favorite shopping spot?</legend>
+                <label><input type="radio" name="q2"> Soho</label><br>
+                <label><input type="radio" name="q2"> Fifth Avenue</label><br>
+                <label><input type="radio" name="q2"> Online Boutiques</label>
+              </fieldset>
           
-              <p>3. What accessory do you never leave home without?</p>
-              <label><input type="radio" name="q3" value="street"> Beanie or cap</label><br>
-              <label><input type="radio" name="q3" value="classic"> Watch</label><br>
-              <label><input type="radio" name="q3" value="trendy"> Statement earrings</label><br><br>
-          
-              <button type="submit">See Your Style!</button>
+              <fieldset>
+                <legend>3. Must-have accessory?</legend>
+                <label><input type="radio" name="q3"> Beanie</label><br>
+                <label><input type="radio" name="q3"> Watch</label><br>
+                <label><input type="radio" name="q3"> Statement Earrings</label>
+              </fieldset>
             </form>
           
-            <div id="quiz-result" class="quiz-result"></div>
-          </div>
+            <!-- User can click to reveal answer manually -->
+            <details class="quiz-result">
+              <summary>Click to reveal your result</summary>
+              <p>If you picked mostly streetwear: You’re edgy and bold.<br>
+              If you picked mostly classic: You’re polished and timeless.<br>
+              If you picked trendy: You’re a fashion-forward icon!</p>
+            </details>
+          </section>
+          
           
     <footer> 
         @FashionNYC
