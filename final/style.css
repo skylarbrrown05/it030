@@ -109,6 +109,19 @@ nav a:hover {
   background-color: #555;
 }
 
+.image-credit {
+  position: absolute;
+  bottom: 10px; /* Position the credit 10px from the bottom */
+  left: 0;
+  right: 0;
+  text-align: center; /* Center the text */
+  color: white; /* White text color */
+  font-size: 12px; /* Smaller font size */
+  background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
   .flex-container {
