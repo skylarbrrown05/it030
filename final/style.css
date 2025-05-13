@@ -186,6 +186,11 @@ fieldset {
 legend {
   font-weight: bold;
 }
+.handle {
+  margin-top: 20px;  /* <-- This ensures it's spaced below the nav */
+  font-weight: bold;
+  display: block;
+}
 
 
 
