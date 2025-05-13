@@ -52,4 +52,33 @@ document.addEventListener("DOMContentLoaded", function () {
             localStorage.setItem("theme", theme);
         });
     }
+    document.getElementById('quiz-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+    
+        const answers = ['q1', 'q2', 'q3'];
+        const counts = { street: 0, classic: 0, trendy: 0 };
+    
+        answers.forEach(q => {
+            const answer = document.querySelector(`input[name="${q}"]:checked`);
+            if (answer) {
+                counts[answer.value]++;
+            }
+        });
+    
+        let result = '';
+        const max = Math.max(counts.street, counts.classic, counts.trendy);
+    
+        if (max === counts.street) {
+            result = "You’re all about NYC streetwear! Edgy, laid-back, and bold.";
+        } else if (max === counts.classic) {
+            result = "You’re a timeless NYC icon – think tailored and chic.";
+        } else if (max === counts.trendy) {
+            result = "You’re a trendsetter – always ahead of the fashion curve!";
+        } else {
+            result = "Mix it up – your style is uniquely yours!";
+        }
+    
+        document.getElementById('quiz-result').textContent = result;
+    });
+    
 });
