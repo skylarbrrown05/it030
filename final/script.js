@@ -14,10 +14,13 @@ if (!name || !theme) {
 
 // Apply theme class to <body>
 document.addEventListener("DOMContentLoaded", function () {
+    // Apply stored theme to body
     if (theme === "dark") {
         document.body.classList.add("dark-theme");
+        document.body.classList.remove("light-theme");
     } else {
         document.body.classList.add("light-theme");
+        document.body.classList.remove("dark-theme");
     }
 
     // Insert greeting text
@@ -29,16 +32,34 @@ document.addEventListener("DOMContentLoaded", function () {
     const toggleBtn = document.getElementById("toggle-theme");
     if (toggleBtn) {
         toggleBtn.addEventListener("click", () => {
-            theme = theme === "dark" ? "light" : "dark";
+            // Toggle theme
+            if (theme === "dark") {
+                theme = "light";
+            } else {
+                theme = "dark";
+            }
+
+            // Apply the new theme to the body
             applyTheme(theme);
         });
     }
 });
 
-    
+// Function to apply the theme
+function applyTheme(theme) {
+    // Remove existing theme classes
+    document.body.classList.remove("light-theme", "dark-theme");
 
+    // Add the selected theme class
+    if (theme === "dark") {
+        document.body.classList.add("dark-theme");
+    } else {
+        document.body.classList.add("light-theme");
+    }
 
-
+    // Save theme to localStorage
+    localStorage.setItem("theme", theme);
+}
 
 
 //must include: 
