@@ -104,6 +104,12 @@ nav a:hover {
   margin-top: 5px;
 }
 
+.influencer-box img {
+  width: 100%;
+  height: 300px; /* forces same height */
+  object-fit
+}
+
 /* Toggle Button */
 #toggle-theme {
   margin-top: 10px;
