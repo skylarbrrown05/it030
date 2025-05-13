@@ -153,6 +153,26 @@ button {
   font-family: Copperplate, Papyrus, fantasy;
 
 }
+.quiz-box {
+  background-color: #fdf3f0;
+  padding: 20px;
+  border: 2px solid #e89f9f;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.quiz-box h2 {
+  text-align: center;
+}
+
+.quiz-result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #5a1a1a;
+}
 
 /*.image-credit {
   position: absolute;
