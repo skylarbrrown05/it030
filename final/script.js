@@ -12,9 +12,8 @@ if (!name || !theme) {
     localStorage.setItem("theme", theme);
 }
 
-// Apply theme class to <body>
-document.addEventListener("DOMContentLoaded", function () {
-    // Apply stored theme to body
+// Function to apply the theme
+function applyTheme(theme) {
     if (theme === "dark") {
         document.body.classList.add("dark-theme");
         document.body.classList.remove("light-theme");
@@ -22,6 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.classList.add("light-theme");
         document.body.classList.remove("dark-theme");
     }
+}
+
+// Apply theme class to <body> on page load
+document.addEventListener("DOMContentLoaded", function () {
+    // Apply stored theme to body
+    applyTheme(theme);
 
     // Insert greeting text
     const greeting = document.getElementById("welcome-message");
@@ -29,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         greeting.textContent = `Welcome back, ${name}`;
     }
 
+    // Add theme toggle functionality
     const toggleBtn = document.getElementById("toggle-theme");
     if (toggleBtn) {
         toggleBtn.addEventListener("click", () => {
@@ -41,17 +47,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Apply the new theme to the body
             applyTheme(theme);
+
+            // Save the new theme in localStorage
             localStorage.setItem("theme", theme);
-        
         });
     }
 });
-
-
-
-//must include: 
-// color options array
-//prompt for user input
-//store input in an output
-//array check (needed)
-//apply color to background 
