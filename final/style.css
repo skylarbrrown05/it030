@@ -60,6 +60,17 @@ p{
   border-radius: 8px; /*rounded corners */
 }
 
+.influencer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
 
  article {/*home page box*/
    flex: 3;/*takes up more space than the aside/side bar*/
