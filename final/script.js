@@ -41,25 +41,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Apply the new theme to the body
             applyTheme(theme);
+            localStorage.setItem("theme", theme);
+        
         });
     }
 });
 
-// Function to apply the theme
-function applyTheme(theme) {
-    // Remove existing theme classes
-    document.body.classList.remove("light-theme", "dark-theme");
-
-    // Add the selected theme class
-    if (theme === "dark") {
-        document.body.classList.add("dark-theme");
-    } else {
-        document.body.classList.add("light-theme");
-    }
-
-    // Save theme to localStorage
-    localStorage.setItem("theme", theme);
-}
 
 
 //must include: 
