@@ -166,6 +166,7 @@ button {
 .quiz-box h2 {
   text-align: center;
   font-family: Copperplate, Papyrus, fantasy;
+  color:#1e1e1e;
 }
 
 fieldset {
@@ -180,13 +181,6 @@ legend {
   font-weight: bold;
 }
 
-details.quiz-result {
-  background-color: #fdecea;
-  border-left: 4px solid #e58e88;
-  padding: 10px;
-  margin-top: 20px;
-  border-radius: 5px;
-}
 
 
 /*.image-credit {
