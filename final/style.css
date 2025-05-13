@@ -21,6 +21,11 @@ body.dark-theme {
 
 /* Header */
 header {
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px 0; /* Adjusts padding */
   background-color: rgb(77, 32, 40);
   padding: 10px 0;
 }
