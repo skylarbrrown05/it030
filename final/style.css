@@ -156,6 +156,7 @@ button {
 #welcome-message{
   color: black;
   font-family: Copperplate, Papyrus, fantasy;
+  background-color: #f0e0e5;
 
 }
 .quiz-box {
