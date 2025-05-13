@@ -25,6 +25,14 @@ document.addEventListener("DOMContentLoaded", function () {
     if (greeting && name) {
         greeting.textContent = `Welcome back, ${name}`;
     }
+
+    const toggleBtn = document.getElementById("toggle-theme");
+    if (toggleBtn) {
+        toggleBtn.addEventListener("click", () => {
+            theme = theme === "dark" ? "light" : "dark";
+            applyTheme(theme);
+        });
+    }
 });
 
     
