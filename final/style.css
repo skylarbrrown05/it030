@@ -148,6 +148,11 @@ button {
   background-color: #555;
 }
 
+#welcome-message{
+  color: black;
+
+}
+
 /*.image-credit {
   position: absolute;
   bottom: 10px; /* Position the credit 10px from the bottom 
